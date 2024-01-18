@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: url(c.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.main {
+    width: 400px;
+    margin: 100px auto 0 auto;
+    text-transform: capitalize;
+    /* background: red; */
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    border-bottom: .1rem solid red;
+
+
+}
+
+.main .regisger {
+    background: rgb(1, 1, 24);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 4px solid red;
+    box-shadow: 2px 2px 15px rgb(183, 159, 23);
+    color: #fff;
+
+}
+
+#register {
+    margin: 40px;
+
+}
+
+label {
+    font-size: 18px;
+}
+
+#name {
+    width: 300px;
+    height: 2rem;
+    border-radius: 1.5rem;
+    border: 2px solid #ddd;
+    padding: 0 5px;
+}
+
+#submit {
+    text-align: center;
+    /* margin-left: 6rem; */
+    margin-top: 1rem;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 2rem;
+    background: red;
+    cursor: pointer;
+
+}

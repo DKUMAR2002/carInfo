@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.service .heading {
+    text-align: center;
+    font-size: 5rem;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+
+
+}
+
+.service .heading span {
+    color: rgb(189, 42, 42);
+    background: yellow;
+
+}
+
+.service .box-container {
+    display: grid;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+}
+
+.service .box-container .box {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+}
+
+.service .box-container .box i {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: black;
+    background: yellow;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.service .box-container .box h3 {
+    color: black;
+    font-size: 2rem;
+}
+
+.service .box-container .box p {
+    color: black;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.service .box-container .box:hover {
+    background: rgba(12, 42, 151, 0.911);
+}
+
+.service .box-container .box:hover h3 {
+    color: #fff;
+}
+
+.service .box-container .box:hover p {
+    color: #eee;
+}

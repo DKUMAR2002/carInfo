@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    background-image: url(c.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    /* background: rgb(211, 189, 189); */
+}
+
+a {
+    text-decoration: none;
+    color: var(--second-color);
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.login-box {
+    position: relative;
+    width: 600px;
+    background: rgba(1, 1, 24, 0.445);
+    backdrop-filter: blur(6px);
+    /* background: transparent; */
+    box-shadow: 0 0 50px rgb(108, 116, 116);
+    border-radius: 25px;
+    padding: 90px 90px 90px 90px;
+
+
+}
+
+/* .wrapper:hover {
+     animation: animate 1s linear infinite; 
+} 
+
+@keyframes animate {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+} */
+
+.login-header {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(137, 7, 7, 0.373);
+    width: 150px;
+    height: 60px;
+    border-radius: 0 0 20px 20px;
+
+}
+
+.login-header span {
+    font-size: 30px;
+}
+
+.input-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    border-bottom: 2px solid white;
+}
+
+
+.input-field {
+    width: 100%;
+    height: 45px;
+    font-size: 19px;
+    background: transparent;
+    color: rgb(250, 247, 247);
+    border: none;
+    padding: 0 5px;
+    /* border-radius: 40px; */
+    padding-inline: 20px 50px;
+    outline: none;
+
+}
+
+#user {
+    margin-bottom: 10px;
+}
+
+.label {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    transition: 1ms;
+}
+
+.input-field:focus~.label,
+.input-field:valid~.label {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 0 10px;
+}
+
+.icon {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 20px;
+}
+
+.input-submit {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid red;
+    border-radius: 30px;
+    cursor: progress;
+}
+
+.register {
+    text-align: center;
+}
+
+.register:hover {
+    font-weight: 600;
+}
